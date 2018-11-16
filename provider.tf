@@ -1,5 +1,5 @@
 provider "google" {
-    credentials = "${file("/home/faiyaz_alam709/terra/terraform_key.json")}"
+    credentials = "${file("/var/lib/jenkins/workspace/Terraform/terraform_key.json")}"
     project = "${var.project}"
     region = "europe-west2"
 }
